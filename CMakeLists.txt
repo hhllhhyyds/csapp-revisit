@@ -6,4 +6,6 @@ project(
     LANGUAGES C
 )
 
+include_directories(src)
+
 add_subdirectory(examples)
